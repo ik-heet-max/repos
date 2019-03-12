@@ -24,4 +24,4 @@ for i, item in enumerate(array):
 
 print(minx, maxx)
 array[minx], array[maxx] = array[maxx], array[minx]
-print(array)
+print("Extrema swapped", array)
